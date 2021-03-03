@@ -25,3 +25,10 @@ for (let item in message) {
             finalMessage.push('There is not enough info.');
     }
 }
+
+const formatMessage = word => {
+    const formatted = finalMessage.join('\n');
+    console.log(formatted);
+}
+
+formatMessage(finalMessage);
